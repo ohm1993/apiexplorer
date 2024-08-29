@@ -1,0 +1,84 @@
+.details-page {
+  padding: 40px;
+  background-color: #34495E; 
+  color: white;
+  border-radius: 15px;
+  width: 100%;
+  height: 100vh; 
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin: 0;
+}
+
+.description {
+  margin-bottom: 30px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.swagger-section, .contact-section {
+  margin-bottom: 25px;
+}
+
+.swagger-section h3, .contact-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #1ABC9C;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+strong {
+  font-weight: bold;
+}
+
+.content-section {
+  margin-left: 40px; 
+  padding: 40px;  
+}
+
+.explore-button {
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: center;
+}
+
+.explore-button:hover {
+  background-color: #16A085;
+}

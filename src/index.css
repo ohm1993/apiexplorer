@@ -11,3 +11,132 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #395b74; /* Background color similar to the image */
+}
+
+.centered-container {
+  text-align: center;
+}
+
+.explore-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #4ab8e0; /* Button color similar to the image */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.explore-button:hover {
+  background-color: #3796b4; /* Slightly darker color on hover */
+}
+
+.api-list {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  background-color: #395b74;
+  color: white;
+  padding: 20px;
+  overflow-y: auto;
+  box-shadow: -2px 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.api-list h2 {
+  margin-top: 0;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.api-list ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.api-list li {
+  padding: 10px;
+  border-bottom: 1px solid #2d3e4f;
+}
+
+.api-list li.highlighted {
+  background-color: #1c2025;
+  display: flex;
+  align-items: center;
+}
+
+.api-list li.highlighted div {
+  display: flex;
+  flex-direction: column;
+}
+
+.api-list li p {
+  margin: 0;
+  color: #aaa;
+  font-size: 12px;
+}
+
+.api-list li:hover {
+  background-color: #2d3e4f;
+}
+
+.dark-background {
+  background-color: #1e1e1e;
+}
+
+.provider-item {
+  margin-bottom: 10px;
+}
+
+.provider-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.arrow-button {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.explore-container {
+  margin-top: 10px;
+}
+
+.api-details {
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+  height: 100%; 
+}
+
+.api-logo {
+  height: 24px;
+  margin-right: 8px; 
+}
+
+.api-title-button {
+  font-size: 16px; 
+  line-height: 24px; 
+  display: inline-block;
+  vertical-align: middle; 
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+
